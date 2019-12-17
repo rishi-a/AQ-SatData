@@ -7,7 +7,7 @@ CSV_FILE = "fileList.csv"
 
 #Give your destination folder
 DEST = "data/" 
-listofFiles=pd.read_csv(CSV_FILE)['fileUrls for custom selected']
+listofFiles=pd.read_csv(CSV_FILE)['url']
 for f in listofFiles:
     # -45 till end selects the filename only
     filename=f[-45:]
