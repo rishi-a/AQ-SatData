@@ -1,7 +1,7 @@
 # To use this file, first head over to https://ladsweb.modaps.eosdis.nasa.gov/search/order and generate the csv file containing the list of hdf files
 
 # Generate your token from https://ladsweb.modaps.eosdis.nasa.gov/profile/#app-keys
-
+import requests
 
 CSV_FILE = "fileList.csv"
 
